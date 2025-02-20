@@ -114,3 +114,7 @@ chmod +x "$base_dir/modules/functions.sh"
 chmod +x "$base_dir/startup.sh"
 
 echo "Environment setup is complete!"
+
+#In case you want to run the startup immediately while running this script, you need to remove # sign on the two lines below
+#cd "$base_dir"
+#./startup.sh
